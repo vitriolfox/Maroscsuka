@@ -1,0 +1,36 @@
+header{
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    border-top: 2px solid $red;
+    padding: 0 100px 0px 35px;
+    background: white;
+    -webkit-box-shadow: 2px 2px 15px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 2px 2px 15px -6px rgba(0,0,0,0.51);
+    box-shadow: 2px 2px 15px -6px rgba(0,0,0,0.51);
+    &.inline {
+        justify-content: space-between;
+    }
+    a{
+        color: $blue;
+        font-weight: bold;
+    }
+    a.active{
+        color: $red;
+    }
+}
+
+.cart img{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px dashed $red;
+
+    a{
+        display: block;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    transition: color .3s;
+    color: $blue;
+}
+
+nav li{
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+p{
+    display: block;
+    font-size: 15px;
+}
+
+a:hover{
+    color: $red;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 200px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.inline{
+    display: flex;
+}
+
+.vertical-center{
+    align-items: center;
+}
+
+::selection{
+    background: $red;
+    color: white;
+}
+
+::-moz-selection{
+    background: $red;
+    color: white;
+}

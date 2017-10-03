@@ -1,0 +1,65 @@
+.aside{
+    width: 30%;
+    padding-left: 50px;
+    padding-right: 25px;
+    h2{
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    h1, .price{
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    h1{
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    a{
+        color: $blue;
+    }
+    a:hover{
+        color: $red;
+    }
+    ul{
+        padding: 25px 0;
+    }
+    li img{
+        width: 50px;
+        height: 50px;
+    }
+    li{
+        border: 2px solid transparent;
+    }
+    li.active, li:hover{
+        border: 2px solid #111111;
+    }
+    select{
+        height: 50px;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 15px;
+        background: white;
+        border: 1px solid $blue;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    .size{
+        width: 200px;
+    }
+    .amount{
+        width: 120px;
+    }
+    button[type="submit"]{
+        background: $red;
+        color: white;
+        border: 0;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        height: 50px;
+        width: 200px;
+        font-size: 16px;
+    }
+}

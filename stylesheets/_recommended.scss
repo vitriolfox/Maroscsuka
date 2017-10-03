@@ -1,0 +1,27 @@
+.recommended{
+    margin: 50px auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1000px;
+    font-weight: bold;
+    img{
+        width: 250px;
+        transition: all 0.3s;
+        overflow: hidden;
+    }
+    a:first-of-type {
+        display: block;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+    li:hover img{
+        width: 280px;
+    }
+    li:hover a{
+        color: $red;
+    }
+    p{
+        color: #999;
+    }
+}

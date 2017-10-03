@@ -1,0 +1,20 @@
+.breadcrumb{
+    margin-left: 30px;
+
+    li, a{
+        color: #999;
+    }
+
+    a{
+        padding: 0 5px;
+    }
+
+    a.active{
+        font-weight: bold;
+
+    }
+
+    a:hover{
+        color: $red;
+    }
+}
